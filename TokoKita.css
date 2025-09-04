@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.tokokita {
+  display: flex;
+  justify-content: center;
+}
+
+.tokokita img {
+  width: 300px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.navbar a {
+  margin: 20px;
+  text-decoration: none;
+  color: gray;
+}
+
+.produk {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid black;
+  height: 320px;
+  width: 210px;
+  padding: 16px;
+  text-align: center;
+  margin: 10px;
+}
+
+.kotak img {
+  max-width: 100%;
+}
+
+.label {
+  margin-top: 10px;
+  display: flex;
+  justify-content: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.harga {
+  font-weight: 700;
+  display: flex;
+  justify-content: left;
+}
+
+.bold-produk {
+  font-weight: 700;
+  color: black;
+  text-underline-offset: 10px;
+  text-decoration: underline;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 7px 0;
+  color: white;
+  background-color: black;
+  width: 210px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
