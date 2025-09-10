@@ -9,6 +9,7 @@
 
 .tokokita img {
   width: 300px;
+  margin-top: 30px;
 }
 
 .navbar {
@@ -31,7 +32,6 @@
 .card {
   background: #fff;
   border: 1px solid black;
-  height: 320px;
   width: 210px;
   padding: 16px;
   text-align: center;
